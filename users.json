@@ -1,0 +1,20 @@
+{
+    "1": {
+        "id": 1,
+        "name": "John",
+        "email": "john.doe@example.com",
+        "profilePhoto": "https://example.com/photos/johndoe.jpg",
+        "currentDelivery": 101,
+        "currentOrder": 201,
+        "pastDeliveries": [
+            99,
+            88,
+            77
+        ]
+    },
+    "123": {
+        "email": "john.doe@example.com",
+        "name": "John Doe",
+        "id": "123"
+    }
+}
