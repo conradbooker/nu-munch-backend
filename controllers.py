@@ -30,6 +30,23 @@ def users(user_id):
         new_user = request.json
         save_data(new_user, file_path)
         return jsonify({'status': 'success', 'feedback': new_user}), 201
+    elif request.method == "PUT":
+        all_users = getData(file_path)
+        if user_id in all_users:
+            all_users[user_id] = request.json
+            save_data(all_users, file_path)
+            return jsonify({'status': 'success', 'feedback': all_users}), 201
+        else:
+            return jsonify({'status': 'error', 'feedback': 'Order not found'}), 404
+
+def get_user_by_email(email):
+    file_path = os.path.join(rootPath, 'users.json')
+    all_users = getData(file_path)
+    for user in all_users.values():
+        if user['email'] == email:
+            return jsonify({'status': 'success', 'feedback': user})
+    return jsonify({'status': 'error', 'feedback': 'User not found'}), 404
+
 
 def orders(order_id):
     file_path = os.path.join(rootPath, 'orders.json')
@@ -46,6 +63,16 @@ def orders(order_id):
         all_orders[new_order_id] = new_order
         save_data(all_orders, file_path)
         return jsonify({'status': 'success', 'feedback': all_orders}), 201
+    elif request.method == 'PUT':
+        all_orders = getData(file_path)
+        if order_id in all_orders:
+            all_orders[order_id] = request.json
+            print(all_orders[order_id],all_orders[order_id],all_orders[order_id])
+            save_data(all_orders, file_path)
+            return jsonify({'status': 'success', 'feedback': all_orders}), 201
+        else:
+            return jsonify({'status': 'error', 'feedback': 'Order not found'}), 404
+
 
 def all_orders():
     file_path = os.path.join(rootPath, 'orders.json')
@@ -85,6 +112,7 @@ def items(item_id):
 def orders_length():
     file_path = os.path.join(rootPath, 'orders.json')
     orders_data = getData(file_path)
+    orders_data = {key: value for key, value in orders_data.items() if value.get('status') != 'In Progress'}
     return jsonify({'status': 'success', 'feedback': len(orders_data)})
 
 """

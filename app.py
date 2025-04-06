@@ -8,8 +8,9 @@ PUT = 'PUT'
 POST = 'POST'
 DELETE = 'DELETE'
 
-app.add_url_rule('/users/<string:user_id>', view_func=controllers.users, methods = [GET,POST])
-app.add_url_rule('/orders/<string:order_id>', view_func=controllers.orders, methods = [GET,POST])
+app.add_url_rule('/users/<string:user_id>', view_func=controllers.users, methods = [GET,POST,PUT])
+app.add_url_rule('/useremail/<string:email>', view_func=controllers.get_user_by_email, methods = [GET])
+app.add_url_rule('/orders/<string:order_id>', view_func=controllers.orders, methods = [GET,POST,PUT])
 app.add_url_rule('/orders', view_func=controllers.all_orders, methods = [GET,POST])
 app.add_url_rule('/order_length', view_func=controllers.orders_length, methods = [GET])
 app.add_url_rule('/eateries', view_func=controllers.all_eateries, methods = [GET])
