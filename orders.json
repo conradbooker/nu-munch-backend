@@ -1,7 +1,9 @@
 {"1": {"id":1,
-    "buyer": "John Doe", 
-    "buyer_email": "john.doe@example.com", 
-    "seller": "Jane Doe", 
-    "seller_email": "jane.doe@example.com", 
-    "buyer_loc":"Main",
-    "eatery":"Shakesmart"}}
+    "status":"in progress",
+    "foodItem_id":1,
+    "locationStart":"Main",
+    "locationEnd":"Tech",
+    "locationEnd_description":"near Mudd",
+    "price":5,
+    "deliverer":"John Doe",
+    "order":5}}
