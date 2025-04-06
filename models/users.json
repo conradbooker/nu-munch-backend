@@ -1,4 +1,16 @@
 {
+    "0": {
+        "name": "string",
+        "id": 0,
+        "email": "string",
+        "profilePhoto": "url",
+        "currentDelivery": "id of order",
+        "currentOrder": "id of order",
+        "pastDeliveries": ["ids of orders"],
+        "pastOrders": ["ids of orders"],
+        "balance": 0,
+        "cart": ["id of items"]
+    },
     "1": {
         "id": 1,
         "name": "John",
@@ -17,10 +29,10 @@
         "email": "john.doe@example.com",
         "password": "password",
         "name": "John Doe",
-        "id": "123"
+        "id": 123
     },
     "2": {
-        "id": "2",
+        "id": 2,
         "password": "mypassword"
     },
     "user123": {
