@@ -1,0 +1,51 @@
+{    
+    "0": {
+        "id": "0",
+        "name": "MOD Pizza",
+        "description": "Pizza",
+        "location": "42.05335, -87.67259",
+        "area": "Norris"
+    },
+    "1": {
+        "id": "1",
+        "name": "847 Burger",
+        "description": "Burger restaurant",
+        "location": "42.05335, -87.67259",
+        "area": "Norris"
+    },
+    "2": {
+        "id": "2",
+        "name": "Buen Dia",
+        "description": "Mexican restuarant",
+        "location": "42.05335, -87.67259",
+        "area": "Norris"
+    },
+    "3": {
+        "id": "3",
+        "name": "Shakesmart",
+        "description": "Shake place",
+        "location": "42.05335, -87.67259",
+        "area": "Norris"
+    },
+    "4": {
+        "id": "4",
+        "name": "Wildcat Deli",
+        "description": "Sandwich place",
+        "location": "42.05335, -87.67259",
+        "area": "Norris"
+    },
+    "5": {
+        "id": "5",
+        "name": "Fran's Cafe",
+        "description": "Burger place",
+        "location": "42.05183, -87.68116",
+        "area": "South Area"
+    },
+    "6": {
+        "id": "6",
+        "name": "Lisa's Cafe",
+        "description": "Mexican",
+        "location": "42.06024, -87.67573",
+        "area": "North"
+    }
+}
