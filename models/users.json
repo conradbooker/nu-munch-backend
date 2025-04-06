@@ -1,0 +1,22 @@
+{
+    "0": {
+        "id": "0",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "currentDelivery": "101",
+        "currentOrder": "202",
+        "currentBalance": 202,
+        "totalBalance": 202,
+        "pastDeliveries": ["301", "302", "303"]
+    },
+    "1": {
+        "id": "0",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "currentDelivery": "101",
+        "currentOrder": 200,
+        "currentBalance": 400,
+        "totalBalance": 202,
+        "pastDeliveries": ["301", "302", "303"]
+    }    
+}

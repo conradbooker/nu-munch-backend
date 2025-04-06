@@ -1,9 +1,368 @@
 {
     "0": {
         "id": "0",
-        "name": "Quesadilla",
+        "name": "Pizza",
+        "description": "Includes a Pizza... Please specify toppings below, and please specify if you want a water/etc in the description.",
+        "options": [
+            "Mozzarella", "Asiago", "Gorgonzola", "Parmesan",
+            "Pepperoni", "Italian sausage", "Grilled chicken", "Spicy chicken sausage", "Ground beef", "Genoa salami",
+            "Mushrooms", "Roasted red peppers", "Artichokes", "Black olives", "Jalapeños", "Red onions", "Diced tomatoes",
+            "Basil", "Garlic", "Chickpeas",
+            "Buffalo sauce", "BBQ sauce", "Garlic pesto", "Balsamic glaze"
+        ],
+        "eatery_id": "0"
+    },
+    "1": {
+        "id": "1",
+        "name": "Salads",
+        "description": "Includes ... Please specify toppings below, and please specify if you want a water/etc in the description.",
+        "options": [
+            "Romaine", "Mixed Spring Greens", "Vine-ripened Tomatoes", "Diced Cucumbers",
+            "Sherry Dijon Vinaigrette", "Feta", "Sliced Red Onions", "Black Olives",
+            "Mama Lil's Sweet Hot Peppas", "Chickpeas", "Greek Vinaigrette", "Asiago",
+            "Aged Parmesan", "Croutons", "Caesar Dressing", "Arugula", "Mozzarella",
+            "Genoa Salami", "Green Bell Peppers", "Zesty Tomato Vinaigrette"
+        ],
+        "eatery_id": "0"
+    },
+    
+    "3": {
+        "id": "3",
+        "name": "Sheridan Rd. Burger",
+        "description": "Includes ... Please specify if you want a water/etc in the description.",
+        "options": [
+            "None"
+        ],
+        "eatery_id": "1"
+    },
+    "4": {
+        "id": "4",
+        "name": "Greenwood St. Garden Burger",
+        "description": "Includes ... Please specify if you want a water/etc in the description.",
+        "options": [
+            "None"
+        ],
+        "eatery_id": "1"
+    },
+    "5": {
+        "id": "5",
+        "name": "Central St. Chicken Sandwich",
+        "description": "Includes ... Please specify if you want a water/etc in the description.",
+        "options": [
+            "None"
+        ],
+        "eatery_id": "1"
+    },
+
+    "6": {
+        "id": "6",
+        "name": "Calabasas Tacos + Chips and Salsa",
+        "description": "Includes ... Please specify salsa below, specify if you want a water/etc in the description.",
+        "options": [
+            "Mild", "Spicy"
+        ],
+        "eatery_id": "2"
+    },
+    "7": {
+        "id": "7",
+        "name": "Chicken Tacos + Chips and Salsa",
+        "description": "Includes ... Please specify salsa below, specify if you want a water/etc in the description.",
+        "options": [
+            "Mild", "Spicy"
+        ],
+        "eatery_id": "2"
+    },
+    "8": {
+        "id": "8",
+        "name": "Cheese Quesadilla",
+        "description": "Includes ... Please specify salsa below, specify if you want a water/etc in the description.",
+        "options": [
+            "Mild", "Spicy"
+        ],
+        "eatery_id": "2"
+    },
+    "9": {
+        "id": "9",
+        "name": "Chicken Quesadilla",
+        "description": "Includes ... Please specify salsa below, specify if you want a water/etc in the description.",
+        "options": [
+            "Mild", "Spicy"
+        ],
+        "eatery_id": "2"
+    },
+
+    "10": {
+        "id": "10",
+        "name": "Shake: Chocolate Frosty",
+        "description": "Includes ... Please if you want a water, Powerade, peanut butter sandwich, or almond butter sandwich in the description.",
+        "options": [
+            "Dasani", "Yellow Powerade", "Red Powerade", "Zero Blue Powerade", "Zero Yellow Powerade", "Zero Red Powerade", "Blue Powerade", "Peanut Butter Sandwich", "Almond Butter Sandwich"
+        ],
+        "eatery_id": "3"
+    },
+    "11": {
+        "id": "11",
+        "name": "Shake: Vanilla Thrilla",
+        "description": "Includes ... Please if you want a water, Powerade, peanut butter sandwich, or almond butter sandwich in the description.",
+        "options": [
+            "Dasani", "Yellow Powerade", "Red Powerade", "Zero Blue Powerade", "Zero Yellow Powerade", "Zero Red Powerade", "Blue Powerade", "Peanut Butter Sandwich", "Almond Butter Sandwich"
+        ],
+        "eatery_id": "3"
+    },
+    "12": {
+        "id": "12",
+        "name": "Shake: Cookies n' Cream",
+        "description": "Includes ... Please if you want a water, Powerade, peanut butter sandwich, or almond butter sandwich in the description.",
+        "options": [
+            "Dasani", "Yellow Powerade", "Red Powerade", "Zero Blue Powerade", "Zero Yellow Powerade", "Zero Red Powerade", "Blue Powerade", "Peanut Butter Sandwich", "Almond Butter Sandwich"
+        ],
+        "eatery_id": "3"
+    },
+    "13": {
+        "id": "13",
+        "name": "Shake: Shake Your Coffee",
+        "description": "Includes ... Please if you want a water, Powerade, peanut butter sandwich, or almond butter sandwich in the description.",
+        "options": [
+            "Dasani", "Yellow Powerade", "Red Powerade", "Zero Blue Powerade", "Zero Yellow Powerade", "Zero Red Powerade", "Blue Powerade", "Peanut Butter Sandwich", "Almond Butter Sandwich"
+        ],
+        "eatery_id": "3"
+    },
+    "14": {
+        "id": "14",
+        "name": "Shake: Banana Split",
+        "description": "Includes ... Please if you want a water, Powerade, peanut butter sandwich, or almond butter sandwich in the description.",
+        "options": [
+            "Dasani", "Yellow Powerade", "Red Powerade", "Zero Blue Powerade", "Zero Yellow Powerade", "Zero Red Powerade", "Blue Powerade", "Peanut Butter Sandwich", "Almond Butter Sandwich"
+        ],
+        "eatery_id": "3"
+    },
+    "15": {
+        "id": "15",
+        "name": "Shake: Strawberry Fields",
+        "description": "Includes ... Please if you want a water, Powerade, peanut butter sandwich, or almond butter sandwich in the description.",
+        "options": [
+            "Dasani", "Yellow Powerade", "Red Powerade", "Zero Blue Powerade", "Zero Yellow Powerade", "Zero Red Powerade", "Blue Powerade", "Peanut Butter Sandwich", "Almond Butter Sandwich"
+        ],
+        "eatery_id": "3"
+    },
+    "16": {
+        "id": "16",
+        "name": "Shake: P-B^2",
+        "description": "Includes ... Please if you want a water, Powerade, peanut butter sandwich, or almond butter sandwich in the description.",
+        "options": [
+            "Dasani", "Yellow Powerade", "Red Powerade", "Zero Blue Powerade", "Zero Yellow Powerade", "Zero Red Powerade", "Blue Powerade", "Peanut Butter Sandwich", "Almond Butter Sandwich"
+        ],
+        "eatery_id": "3"
+    },
+    "17": {
+        "id": "17",
+        "name": "Shake: Grammy's Goods",
+        "description": "Includes ... Please if you want a water, Powerade, peanut butter sandwich, or almond butter sandwich in the description.",
+        "options": [
+            "Dasani", "Yellow Powerade", "Red Powerade", "Zero Blue Powerade", "Zero Yellow Powerade", "Zero Red Powerade", "Blue Powerade", "Peanut Butter Sandwich", "Almond Butter Sandwich"
+        ],
+        "eatery_id": "3"
+    },
+    "18": {
+        "id": "18",
+        "name": "Shake: Matcha Mentality",
+        "description": "Includes ... Please if you want a water, Powerade, peanut butter sandwich, or almond butter sandwich in the description.",
+        "options": [
+            "Dasani", "Yellow Powerade", "Red Powerade", "Zero Blue Powerade", "Zero Yellow Powerade", "Zero Red Powerade", "Blue Powerade", "Peanut Butter Sandwich", "Almond Butter Sandwich"
+        ],
+        "eatery_id": "3"
+    },
+    "19": {
+        "id": "19",
+        "name": "Shake: Greens to Go",
+        "description": "Includes ... Please if you want a water, Powerade, peanut butter sandwich, or almond butter sandwich in the description.",
+        "options": [
+            "Dasani", "Yellow Powerade", "Red Powerade", "Zero Blue Powerade", "Zero Yellow Powerade", "Zero Red Powerade", "Blue Powerade", "Peanut Butter Sandwich", "Almond Butter Sandwich"
+        ],
+        "eatery_id": "3"
+    },
+    "20": {
+        "id": "20",
+        "name": "Shake: Carrot Cake",
+        "description": "Includes ... Please if you want a water, Powerade, peanut butter sandwich, or almond butter sandwich in the description.",
+        "options": [
+            "Dasani", "Yellow Powerade", "Red Powerade", "Zero Blue Powerade", "Zero Yellow Powerade", "Zero Red Powerade", "Blue Powerade", "Peanut Butter Sandwich", "Almond Butter Sandwich"
+        ],
+        "eatery_id": "3"
+    },
+    "21": {
+        "id": "21",
+        "name": "Scooped Bowl: Rawcai",
+        "description": "Includes ... Please if you want a water, Powerade, peanut butter sandwich, or almond butter sandwich in the description.",
+        "options": [
+            "Dasani", "Yellow Powerade", "Red Powerade", "Zero Blue Powerade", "Zero Yellow Powerade", "Zero Red Powerade", "Blue Powerade", "Peanut Butter Sandwich", "Almond Butter Sandwich"
+        ],
+        "eatery_id": "3"
+    },
+    "22": {
+        "id": "22",
+        "name": "Scooped Bowl: Raw-PB",
+        "description": "Includes ... Please if you want a water, Powerade, peanut butter sandwich, or almond butter sandwich in the description.",
+        "options": [
+            "Dasani", "Yellow Powerade", "Red Powerade", "Zero Blue Powerade", "Zero Yellow Powerade", "Zero Red Powerade", "Blue Powerade", "Peanut Butter Sandwich", "Almond Butter Sandwich"
+        ],
+        "eatery_id": "3"
+    },
+    "23": {
+        "id": "23",
+        "name": "Scooped Bowl: The Buzz Bowl",
+        "description": "Includes ... Please if you want a water, Powerade, peanut butter sandwich, or almond butter sandwich in the description.",
+        "options": [
+            "Dasani", "Yellow Powerade", "Red Powerade", "Zero Blue Powerade", "Zero Yellow Powerade", "Zero Red Powerade", "Blue Powerade", "Peanut Butter Sandwich", "Almond Butter Sandwich"
+        ],
+        "eatery_id": "3"
+    },
+    "24": {
+        "id": "24",
+        "name": "Blended Bowl: Original Acai Bowl",
+        "description": "Includes ... Please if you want a water, Powerade, peanut butter sandwich, or almond butter sandwich in the description.",
+        "options": [
+            "Dasani", "Yellow Powerade", "Red Powerade", "Zero Blue Powerade", "Zero Yellow Powerade", "Zero Red Powerade", "Blue Powerade", "Peanut Butter Sandwich", "Almond Butter Sandwich"
+        ],
+        "eatery_id": "3"
+    },
+    "25": {
+        "id": "25",
+        "name": "Blended Bowl: PB&A",
+        "description": "Includes ... Please if you want a water, Powerade, peanut butter sandwich, or almond butter sandwich in the description.",
+        "options": [
+            "Dasani", "Yellow Powerade", "Red Powerade", "Zero Blue Powerade", "Zero Yellow Powerade", "Zero Red Powerade", "Blue Powerade", "Peanut Butter Sandwich", "Almond Butter Sandwich"
+        ],
+        "eatery_id": "3"
+    },
+    "26": {
+        "id": "26",
+        "name": "Blended Bowl: Dragon Bowl",
+        "description": "Includes ... Please if you want a water, Powerade, peanut butter sandwich, or almond butter sandwich in the description.",
+        "options": [
+            "Dasani", "Yellow Powerade", "Red Powerade", "Zero Blue Powerade", "Zero Yellow Powerade", "Zero Red Powerade", "Blue Powerade", "Peanut Butter Sandwich", "Almond Butter Sandwich"
+        ],
+        "eatery_id": "3"
+    },
+
+    "27": {
+        "id": "27",
+        "name": "Vegan Hoagie Sandwich",
+        "description": "Includes ... Please specify what toppings you would like, and specify what chips you would like in the notes.",
+        "options": [
+            "Hummus", "Egg Salad", "Black Forest Ham", "Roast Turkey", "FAD-Free Tuna Salad", "Genoa Salami", "House Made Chicken Salad", "American Cheese", "Cheddar", "Pepper Jack", "Provolone", "Swiss", "Vegan Cheddar", "Cucumber", "Deli Mustard", "Green Leaf", "Jalapenos", "Mayo", "Honey Mustard", "Pickled Red Onion", "Pickle Slices", "Ranch Dressing", "Red Onion", "Roasted Pepper", "Sriracha Aioli", "Tomato", "Oil & Vineger"
+        ],
+        "eatery_id": "4"
+    },
+    "28": {
+        "id": "28",
+        "name": "Tortilla Wrap Sandwich",
+        "description": "Includes ... Please specify what toppings you would like, and specify what chips you would like in the notes.",
+        "options": [
+            "Hummus", "Egg Salad", "Black Forest Ham", "Roast Turkey", "FAD-Free Tuna Salad", "Genoa Salami", "House Made Chicken Salad", "American Cheese", "Cheddar", "Pepper Jack", "Provolone", "Swiss", "Vegan Cheddar", "Cucumber", "Deli Mustard", "Green Leaf", "Jalapenos", "Mayo", "Honey Mustard", "Pickled Red Onion", "Pickle Slices", "Ranch Dressing", "Red Onion", "Roasted Pepper", "Sriracha Aioli", "Tomato", "Oil & Vineger"
+        ],
+        "eatery_id": "4"
+    },
+    "29": {
+        "id": "29",
+        "name": "Wheat Hoagie Sandwich",
+        "description": "Includes ... Please specify what toppings you would like, and specify what chips you would like in the notes.",
+        "options": [
+            "Hummus", "Egg Salad", "Black Forest Ham", "Roast Turkey", "FAD-Free Tuna Salad", "Genoa Salami", "House Made Chicken Salad", "American Cheese", "Cheddar", "Pepper Jack", "Provolone", "Swiss", "Vegan Cheddar", "Cucumber", "Deli Mustard", "Green Leaf", "Jalapenos", "Mayo", "Honey Mustard", "Pickled Red Onion", "Pickle Slices", "Ranch Dressing", "Red Onion", "Roasted Pepper", "Sriracha Aioli", "Tomato", "Oil & Vineger"
+        ],
+        "eatery_id": "4"
+    },
+    "30": {
+        "id": "30",
+        "name": "White Hoagie Sandwich",
+        "description": "Includes ... Please specify what toppings you would like, and specify what chips you would like in the notes.",
+        "options": [
+            "Hummus", "Egg Salad", "Black Forest Ham", "Roast Turkey", "FAD-Free Tuna Salad", "Genoa Salami", "House Made Chicken Salad", "American Cheese", "Cheddar", "Pepper Jack", "Provolone", "Swiss", "Vegan Cheddar", "Cucumber", "Deli Mustard", "Green Leaf", "Jalapenos", "Mayo", "Honey Mustard", "Pickled Red Onion", "Pickle Slices", "Ranch Dressing", "Red Onion", "Roasted Pepper", "Sriracha Aioli", "Tomato", "Oil & Vineger"
+        ],
+        "eatery_id": "4"
+    },
+    "31": {
+        "id": "31",
+        "name": "Gluten-Free Bread",
+        "description": "Includes ... Please specify what toppings you would like, and specify what chips you would like in the notes.",
+        "options": [
+            "Hummus", "Egg Salad", "Black Forest Ham", "Roast Turkey", "FAD-Free Tuna Salad", "Genoa Salami", "House Made Chicken Salad", "American Cheese", "Cheddar", "Pepper Jack", "Provolone", "Swiss", "Vegan Cheddar", "Cucumber", "Deli Mustard", "Green Leaf", "Jalapenos", "Mayo", "Honey Mustard", "Pickled Red Onion", "Pickle Slices", "Ranch Dressing", "Red Onion", "Roasted Pepper", "Sriracha Aioli", "Tomato", "Oil & Vineger"
+        ],
+        "eatery_id": "4"
+    },
+    
+    "32": {
+        "id": "32",
+        "name": "Garden Burger",
+        "description": "Includes ... Specify any drink you would like in the notes.",
+        "options": [
+            "Coke", "Diet Coke", "Sprite", "Lemonade", "Sweet Tea", "Water"
+            ],
+        "eatery_id": "5"
+    },
+    "33": {
+        "id": "33",
+        "name": "Vegan Tenders",
+        "description": "Includes ... Specify any drink you would like in the notes.",
+        "options": [
+            "Coke", "Diet Coke", "Sprite", "Lemonade", "Sweet Tea", "Water"
+            ],
+        "eatery_id": "5"
+    },
+    "34": {
+        "id": "34",
+        "name": "Chicken Tenders",
+        "description": "Includes ... Specify any drink you would like in the notes.",
+        "options": [
+            "Coke", "Diet Coke", "Sprite", "Lemonade", "Sweet Tea", "Water"
+            ],
+        "eatery_id": "5"
+    },
+    "35": {
+        "id": "35",
+        "name": "Sheridan Burger",
+        "description": "Includes ... Specify any drink you would like in the notes.",
+        "options": [
+            "Coke", "Diet Coke", "Sprite", "Lemonade", "Sweet Tea", "Water"
+            ],
+        "eatery_id": "5"
+    },
+    "36": {
+        "id": "36",
+        "name": "Chicken Tender Sandwich",
+        "description": "Includes ... Specify any drink you would like in the notes.",
+        "options": [
+            "Coke", "Diet Coke", "Sprite", "Lemonade", "Sweet Tea", "Water"
+            ],
+        "eatery_id": "5"
+    },
+
+    "37": {
+        "id": "37",
+        "name": "Any 2 Tacos with Tortilla Chips, Salsa, and Bottled Water",
         "description": "Includes ... Please specify cheese/meet below, and please specify if you want a water/etc in the description.",
-        "options": ["Cheese","Meat"],
-        "eatery_id": "make sure that this matches with the eatery id"
+        "options": ["Chicken", "Beef", "Bean"],
+        "eatery_id": "6"
+    },
+    "38": {
+        "id": "38",
+        "name": "Any 1 Quesadilla with Tortilla Chips, Salsa, and Bottled Water",
+        "description": "Includes ... Please specify cheese/meet below, and please specify if you want a water/etc in the description.",
+        "options": ["Chicken", "Beef", "Bean"],
+        "eatery_id": "6"
+    },
+    "39": {
+        "id": "39",
+        "name": "Any 1 Burrito with Tortilla Chips, Salsa, and Bottled Water",
+        "description": "Includes ... Please specify cheese/meet below, and please specify if you want a water/etc in the description.",
+        "options": ["Chicken", "Beef", "Bean"],
+        "eatery_id": "6"
+    },
+    "40": {
+        "id": "40",
+        "name": "Any Nachos with Tortilla Chips, Salsa, and Bottled Water",
+        "description": "Includes ... Please specify cheese/meet below, and please specify if you want a water/etc in the description.",
+        "options": ["Chicken", "Beef", "Bean"],
+        "eatery_id": "6"
     }
 }
