@@ -11,9 +11,10 @@ def load_data(file_name):
     except FileNotFoundError:
         return {}
 
-users = load_data('users.json')
-eateries = load_data('eateries.json')
-orders = load_data('orders.json')
+users = load_data('models/users.json')
+eateries = load_data('models/eateries.json')
+orders = load_data('models/orders.json')
+items = load_data('models/items.json')
 
 # Save data back to JSON files (if needed, e.g., for updates)
 def save_data(data, file_name):

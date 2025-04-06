@@ -1,0 +1,85 @@
+{
+    // "MOD Pizza"
+    // "847 Burger"
+    // "Buen Dia"
+    // "Shakesmart"
+    // "Wildcat Deli"
+    // "Fran's Cafe"
+    // "Lisa's Cafe"
+
+
+    "0": {
+        "id": "0",
+        "name": "Quesadilla",
+        "description": "Includes ... Please specify cheese/meet below, and please specify if you want a water/etc in the description.",
+        "options": ["Cheese","Meat"],
+        "eatery_id": "make sure that this matches with the eatery id"
+    },
+    "1": {
+        "id": "1",
+        "name": "Quesadilla",
+        "description": "Includes ... Please specify cheese/meet below, and please specify if you want a water/etc in the description.",
+        "options": ["Cheese","Meat"],
+        "eatery_id": "make sure that this matches with the eatery id"
+    },
+    "2": {
+        "id": "2",
+        "name": "Quesadilla",
+        "description": "Includes ... Please specify cheese/meet below, and please specify if you want a water/etc in the description.",
+        "options": ["Cheese","Meat"],
+        "eatery_id": "make sure that this matches with the eatery id"
+    }
+}
+
+
+
+// {"MOD Pizza": {
+//     "name": "MOD Pizza", 
+//     "photo":"https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/MOD_Pizza_logo.svg/1200px-MOD_Pizza_logo.svg.png",
+//     "items": ["Pizza (Add Toppings in Notes)", "Salad (Add Toppings in Notes)"],
+//     "closing time":"8:00pm",
+//     "opening time":"11:00am",
+//     "cuisine": "Pizza"},
+// "847 Burger": {
+//     "name": "847 Burger", 
+//     "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_tVjxCgLQV3w5XaGKXwrQLJIjCMB9q2uGmQ&s",
+//     "items": ["Sheridan Rd. Burger", "Greenwood St. Garden Burger", "Central St. Chicken Sandwich"],
+//     "closing time":"6:00pm",
+//     "opening time":"11:00am",
+//     "cuisine": "American"},
+// "Buen Dia": {
+//     "name": "Buen Dia", 
+//     "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_tVjxCgLQV3w5XaGKXwrQLJIjCMB9q2uGmQ&s",
+//     "items": ["2 Calabasas Tacos + Chips and Salsa", "2 Chicken Tacos + Chips and Salsa", "Chicken or Cheese Quesadilla (Specify in Notes)"],
+//     "closing time":"6:00pm",
+//     "opening time":"11:00am",
+//     "cuisine": "Mexican"},
+// "Shakesmart": {
+//     "name": "Shakesmart", 
+//     "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX6mrvGgg8o8-rlIDBlF3nQ0XIaj-n33MbGQ&s",
+//     "items": ["Regular size shake (Add details in Notes)", "Upgrade to a bowl, scooped or blended (Add details in Notes)", "Choose one more: peanut or almond butter sandwich (Specify in notes)", "Choose one more: Dasani or Powerade (Specify in Notes)"],
+//     "closing time":"6:00pm",
+//     "opening time":"7:00am",
+//     "cuisine": "Shakes"},
+// "Wildcat Deli": {
+//     "name": "Wildcat Deli", 
+//     "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_tVjxCgLQV3w5XaGKXwrQLJIjCMB9q2uGmQ&s",
+//     "items": ["Build your own sandwich (Add details in Notes", "Choose: Chips or Fruit (Specify in Notes"],
+//     "closing time":"6:00pm",
+//     "opening time":"11:00am",
+//     "cuisine": "Deli"},
+// "Fran's Cafe": {  
+//     "name": "Fran's Cafe", 
+//     "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_tVjxCgLQV3w5XaGKXwrQLJIjCMB9q2uGmQ&s",
+//     "items": ["Garden Burger", "Chicken or Vegan Tenders", "Sheridan Burger", "Chicken Tender Sandwich", "Choose One Drink: Coke, Diet Coke, Sprite, Lemonade, Sweet Tea, or Water"],
+//     "closing time":"1:00am",
+//     "opening time":"6:00pm",
+//     "cuisine": "Cafe"},
+// "Lisa's Cafe": {
+//     "name": "Lisa's Cafe", 
+//     "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_tVjxCgLQV3w5XaGKXwrQLJIjCMB9q2uGmQ&s",
+//     "items": ["Any 2 Tacos with Tortilla Chips, Salsa, and Bottled Water (Specify Chicken, Beef, or Bean in Notes)", "Any 1 Quesadilla with Tortilla Chips, Salsa, and Bottled Water (Specify Chicken, Beef, or Bean in Notes)", "Any 1 Burrito with Tortilla Chips, Salsa, and Bottled Water (Specify Chicken, Beef or Bean in Notes)", "Any Nachos with Salsa and Bottled Water (Specify Chicken, Beef, or Bean in Notes)"],
+//     "closing time":"1:00am",
+//     "opening time":"12:00pm",
+//     "cuisine": "Cafe"}}
+    
