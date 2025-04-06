@@ -110,6 +110,14 @@ def get_order(order_id):
             return jsonify(order)
         return jsonify({"status":"error","feedback": "Order not found"}), 404
 
+#GET request to retrieve all order
+@app.route('/orders', methods=['GET'])
+def get_orders():
+    if request.method == "GET":
+        if orders:
+            return orders
+        return jsonify({"status":"error","feedback": "No orders found"}), 404
+
 # POST request to add order information
 @app.route('/orders', methods=['POST'])
 def add_order(order_id):
