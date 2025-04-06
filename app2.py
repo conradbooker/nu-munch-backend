@@ -29,6 +29,7 @@ def get_user(user_id):
             return jsonify(user)
         return jsonify({"error": "User not found"}), 404
 
+# POST request to add user information
 @app.route('/users', methods=['POST'])
 def add_user():
     if request.method == "POST":
@@ -49,6 +50,7 @@ def get_eatery(eatery_id):
             return jsonify(eatery)
         return jsonify({"error": "Eatery not found"}), 404
 
+# POST request to add eatery information
 @app.route('/eateries', methods=['POST'])
 def add_eatery():
     if request.method == "POST":
@@ -69,6 +71,7 @@ def get_order(order_id):
             return jsonify(order)
         return jsonify({"error": "Order not found"}), 404
 
+# POST request to add order information
 @app.route('/orders', methods=['POST'])
 def add_order(order_id):
     if request.method == "POST":
