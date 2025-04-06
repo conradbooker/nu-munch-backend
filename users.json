@@ -3,6 +3,7 @@
         "id": 1,
         "name": "John",
         "email": "john.doe@example.com",
+        "password": "password",
         "profilePhoto": "https://example.com/photos/johndoe.jpg",
         "currentDelivery": 101,
         "currentOrder": 201,
@@ -14,7 +15,24 @@
     },
     "123": {
         "email": "john.doe@example.com",
+        "password": "password",
         "name": "John Doe",
         "id": "123"
+    },
+    "2": {
+        "id": "2",
+        "password": "mypassword"
+    },
+    "user123": {
+        "id": "user123",
+        "password": "password123"
+    },
+    "user": {
+        "id": "user",
+        "password": "password123"
+    },
+    "use": {
+        "id": "use",
+        "password": "password123"
     }
 }
