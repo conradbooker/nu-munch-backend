@@ -339,29 +339,29 @@
 
     "37": {
         "id": "37",
-        "name": "Any 2 Tacos with Tortilla Chips, Salsa, and Bottled Water",
+        "name": "2 Tacos",
         "description": "Includes ... Please specify cheese/meet below, and please specify if you want a water/etc in the description.",
         "options": ["Chicken", "Beef", "Bean"],
         "eatery_id": "6"
     },
     "38": {
         "id": "38",
-        "name": "Any 1 Quesadilla with Tortilla Chips, Salsa, and Bottled Water",
-        "description": "Includes ... Please specify cheese/meet below, and please specify if you want a water/etc in the description.",
+        "name": "Quesadilla (4pc)",
+        "description": "Please specify cheese/meet below.",
         "options": ["Chicken", "Beef", "Bean"],
         "eatery_id": "6"
     },
     "39": {
         "id": "39",
-        "name": "Any 1 Burrito with Tortilla Chips, Salsa, and Bottled Water",
-        "description": "Includes ... Please specify cheese/meet below, and please specify if you want a water/etc in the description.",
+        "name": "Burrito",
+        "description": "Please specify cheese/meet below.",
         "options": ["Chicken", "Beef", "Bean"],
         "eatery_id": "6"
     },
     "40": {
         "id": "40",
-        "name": "Any Nachos with Tortilla Chips, Salsa, and Bottled Water",
-        "description": "Includes ... Please specify cheese/meet below, and please specify if you want a water/etc in the description.",
+        "name": "Nachos",
+        "description": "Please specify cheese/meet below.",
         "options": ["Chicken", "Beef", "Bean"],
         "eatery_id": "6"
     }
