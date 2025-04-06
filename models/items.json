@@ -1,0 +1,9 @@
+{
+    "0": {
+        "id": "0",
+        "name": "Quesadilla",
+        "description": "Includes ... Please specify cheese/meet below, and please specify if you want a water/etc in the description.",
+        "options": ["Cheese","Meat"],
+        "eatery_id": "make sure that this matches with the eatery id"
+    }
+}
