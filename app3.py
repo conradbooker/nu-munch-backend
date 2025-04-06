@@ -116,18 +116,9 @@ def add_order(order_id):
     if request.method == "POST":
         new_order = request.json  # Get the data from the POST request
         order_id = str(new_order.get("id"))  # Assume "id" is part of the data
-        order_buyer = str(new_order.get("buyer"))  # Assume "id" is part of the data
-        order_buyer_loc = str(new_order.get("buyer_loc"))  # Assume "id" is part of the data
-        order_eatery = str(new_order.get("buyer_eatery"))  # Assume "id" is part of the data
-
+        
         if not order_id:  # Check if "id" are provided
             return jsonify({"status":"error","feedback":"'id' is required"}), 400
-        if not order_buyer:  # Check if "buyer" are provided
-            return jsonify({"status":"error","feedback":"'buyer' is required"}), 400
-        if not order_buyer_loc:  # Check if "buyer_loc" are provided
-            return jsonify({"status":"error","feedback":"'buyer_loc' is required"}), 400
-        if not order_eatery:  # Check if "eatery" are provided
-            return jsonify({"status":"error","feedback":"'buyer_eatery' is required"}), 400
         
         if order_id in orders:
             return jsonify({"status":"error","feedback":"Order already exists"}), 400
